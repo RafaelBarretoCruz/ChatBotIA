@@ -1,0 +1,36 @@
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# .gitignore
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dados temporários
+*.tmp
+*.bak
+
+# Arquivos de configuração local
+.env

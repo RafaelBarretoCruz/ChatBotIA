@@ -1,0 +1,98 @@
+/* style.css */
+
+/* Geral */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Títulos */
+h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* Botão grupo (index.html e base.html) */
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button-group button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+/* Inputs do formulário (base.html) */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button[type="submit"] {
+  background-color: #28a745;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Janela do chat (base.html) */
+#historico {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  width: 90%;
+  max-width: 500px;
+  height: 200px;
+  overflow-y: scroll;
+  text-align: left;
+  white-space: pre-wrap;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Específico para o index.html */
+.index-buttons {
+  margin-top: 30px;
+}
