@@ -1,3 +1,13 @@
+#  2º I - AD
+## Gabriel Martins
+## Fellipe Meira
+## Bruno Galvão
+## Rafael Cruz
+## Vitor Maciel
+
+
+
+
 # TECH_flask_chat
 Flask App as an educational lab for AI and IoT.
 
